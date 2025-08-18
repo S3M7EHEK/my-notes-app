@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Notes Dashboard Styling */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.container button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container li button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container li button:hover {
+  background-color: #c82333;
+}
+
+/* Auth Pages Styling (Login & Signup) */
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #218838;
+}
